@@ -67,7 +67,7 @@ console.log(taxAnswer);
 
 let john = 50; 
 let tim = 20;
-let alfie = 78;
+let alfie = 30;
 let gwen = 40;
 let test = 100;
 let number = 4; 
@@ -84,5 +84,23 @@ console.log(average);
 let average2 = average / number ;
 console.log(average2)
 
+
 let averageAnswer = "The student average is:  " + average2 + " /100";
 console.log(averageAnswer);
+
+let john1 = john + 7;
+let tim2 = tim + 7;
+let alfie3 = alfie + 7;
+let gwen4 = gwen + 7;
+
+console.log(john1);
+console.log(tim2);
+console.log(alfie3);
+console.log(gwen4);
+
+let average1 = (john1 + tim2 + alfie3 + gwen4)
+console.log(average1);
+let average3 = "The student average is:  " + average1 / number + " /100";
+console.log(average3)
+
+
